@@ -40,7 +40,7 @@ export class Server {
     });
 
     // Run the server.
-    const port = process.env.PORT || 3001;
+    const port = process.env.PORT || 4004;
     app.listen(port, async () => {
       console.info(`Server is listing at http://localhost:${port}`);
     });
